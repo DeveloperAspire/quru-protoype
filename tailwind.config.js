@@ -9,7 +9,7 @@ module.exports = {
         'darkyellow':'#F8B336',
       },
       fontfamily:{
-        'font-family': ['Work Sans', 'sans-serif']
+        'work': ['Work Sans', 'sans-serif']
       }
     },
   },

@@ -1,0 +1,20 @@
+{
+  "name": "quru-labs",
+  "version": "1.0.0",
+  "description": "This is a prototype web app for qurulab frontend test.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeveloperAspire/quru-protoype.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeveloperAspire/quru-protoype/issues"
+  },
+  "homepage": "https://github.com/DeveloperAspire/quru-protoype#readme"
+}

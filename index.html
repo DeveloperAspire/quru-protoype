@@ -17,8 +17,8 @@
         </div>
 
         <div class="hidden md:block md:flex md:justify-between md:items-center">
-            <p class="md:mr-4">Features</p>
-            <p class="md:mr-8">FAQ</p>
+            <p class="md:mr-4 text-xl">Features</p>
+            <p class="md:mr-8 text-xl">FAQ</p>
         </div>
         <div id="menu-icon" class="md:hidden">
             <i class="fas fa-bars text-2xl"></i>
@@ -27,8 +27,8 @@
     </header>
     <!-- MOBILE MENU-->
     
-        <div class=" hiddden bg-white font-semibold text-xl px-4">
-            <p class="md:mr-4">Features</p>
+        <div id="mobile-menu" class=" hidden bg-white font-semibold text-xl px-4">
+            <p class="md:mr-4 ">Features</p>
             <p class="md:mr-8">FAQ</p>
         </div>
 
@@ -36,9 +36,9 @@
 
         <main class="py-4 md:flex ">
 
-            <div class="text-center">
+            <div class="text-center md:py-10  md:text-left md:w-1/2">
 
-                <div class="text-center p-4 mb-4">
+                <div class="text-center md:text-left p-4 mb-4 ">
                 <h1 class="text-5xl text-blue text-center font-bold leading-tight">
                  Get Paid by doing what you love.
 
@@ -47,7 +47,7 @@
                 <p class="text-2xl text-blue font-medium mx-2">
                     Creators toolkit for receiving payments, selling products and accepting membership subscripitions from your audiences
                 </p>
-                <a class="block text-darkyellow bg-blue px-2 py-4 rounded-2xl m-4 font-bold text-2xl" href="#">
+                <a class="block text-darkyellow bg-blue px-2 py-4 rounded-2xl m-4 font-bold text-2xl text-center md:w-1/2" href="#">
                     Get early access <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
@@ -60,6 +60,7 @@
         <!-- FEATURES SECTION-->
 
         <section class="px-4">
+
             <div class="text-center">
                 <h1 class="inline-block font-semibold pb-4 border-b-2 border-darkyellow text-blue text-4xl tracking-wide">
                     Features
@@ -67,10 +68,11 @@
             </div>
 
             <div id="container" class="my-14">
-            <div>
+
+            <div class="md:grid md:grid-cols-2 md:gap-4">
                 <img src="images/ayo.png" alt="">
 
-                <div class="my-10">
+                <div class="my-10 md:px-8">
                     <h1 class="text-5xl font-semibold text-blue tracking-wider leading-tight mb-8">Get Support from your fans</h1>
                     <p class="text-2xl text-blue font-semibold mb-8">Recieve coffee/pizza money from people who love your work.</p>
                     <a class="block text-yellow  text-2xl font-bold" href="#">
@@ -78,9 +80,9 @@
                     </a>
                 </div> </div>
 
-                <div>
+                <div class="md:grid md:grid-cols-2 md:gap-4">
                     <img class="md:hidden" src="images/mariam.png" alt="">
-                    <div class="my-10" >
+                    <div class="my-10 md:px-8" >
                         <h1 class="text-5xl font-semibold text-blue tracking-wider leading-tight mb-8">Sell Digital Products easily</h1>
                         <p class="text-2xl text-blue font-semibold mb-8">Easily create product pages to sell your digital products.</p>
                         <a class="block text-yellow  text-2xl font-bold" href="#">
@@ -91,9 +93,9 @@
                 </div>
 
 
-                    <div>
+                    <div class="md:grid md:grid-cols-2 md:gap-4">
                         <img src="images/sarah.png" alt="">
-                        <div class="my-10">
+                        <div class="my-10 md:px-8">
                             <h1 class="text-5xl font-semibold text-blue tracking-wider leading-tight mb-8">Accept Membership Subscriptions</h1>
                             <p class="text-2xl text-blue font-semibold mb-8">Let your audience access your paid newsletter through monthly membership subscription.</p>
                             <a class="block text-yellow  text-2xl font-bold" href="#">
@@ -105,16 +107,16 @@
 
         <!-- FAQ SECTION-->
 
-        <section>
+        <section >
             <div class="text-center">
                 <h1 class="inline-block font-semibold pb-4 border-b-2 border-darkyellow text-blue text-4xl tracking-wide">
                     FAQ
                 </h1>
             </div>
 
-            <div>
+            <div class="md:flex md:flex-col md:items-center">
 
-                <div class="bg-white mx-4 my-10 p-4">
+                <div class="bg-white mx-4 my-10 p-4 md:w-2/5">
                     <div class="flex justify-between items-center">
                         <p class="text-blue font-bold text-2xl">What's Fidia</p>
                         <i class="fas fa-plus text-yellow text-xl"></i>
@@ -124,7 +126,7 @@
                     </p>
                 </div>
 
-                <div class="bg-white mx-4 my-10 p-4 transition duration-500 hover:h-none">
+                <div class="bg-white mx-4 my-10 p-4 md:w-2/5">
                     <div class="flex justify-between items-center">
                         <p class="text-blue font-bold text-2xl">Who can use Fidia?</p>
                         <i class="fas fa-plus text-yellow text-xl"></i>
@@ -134,7 +136,7 @@
                     </p>
                 </div>
 
-                <div class="bg-white mx-4 my-10 p-4 transition duration-500 hover:h-none">
+                <div class="bg-white mx-4 my-10 p-4  md:w-2/5">
                     <div class="flex justify-between items-center">
                         <p class="text-blue font-bold text-2xl">Is Fidia free to use?</p>
                         <i class="fas fa-plus text-yellow text-xl"></i>
@@ -144,7 +146,7 @@
                     </p>
                 </div>
 
-                <div class="bg-white mx-4 my-10 p-4 transition duration-500 hover:h-none">
+                <div class="bg-white mx-4 my-10 p-4  md:w-2/5">
                     <div class="flex justify-between items-center">
                         <p class="text-blue font-bold text-2xl">Why Use Fidia?</p>
                         <i class="fas fa-plus text-yellow text-xl"></i>
@@ -160,13 +162,17 @@
 
         <!--GETTING PAID SECTION -->
 
-        <section class="bg-blue py-8 px-2 mx-4 rounded-2xl">
-            <div class="text-center px-4">
+        <section class="md:flex md:justify-center">
+
+            <div  class="bg-blue py-8 px-2 mx-4 rounded-xl md:flex md:justify-between md:items-center md:w-4/5 md:py-10 md:px-10">
+            <div class="text-center px-4 md:text-left">
 <h1 class="text-white text-5xl font-semibold tracking-wider leading mb-8">Ready to start getting paid</h1>
             </div>
             <a class="block text-blue bg-darkyellow px-2 py-4 rounded-2xl m-4 font-bold text-2xl text-center" href="#">
                 Get early access <i class="fas fa-arrow-right"></i>
             </a>
+
+            </div>
 
         </section>
 

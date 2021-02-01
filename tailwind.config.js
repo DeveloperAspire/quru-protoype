@@ -8,7 +8,7 @@ module.exports = {
         'yellow': '#FACC70',
         'darkyellow':'#F8B336',
       },
-      fontfamily:{
+      fontFamily:{
         'work': ['Work Sans', 'sans-serif']
       }
     },
